@@ -7,9 +7,9 @@ config.sfdc = {
   auth : {
     // OAuth authentication domain
     // For production or DE use
-    domain : 'https://login.salesforce.com',
+    // domain : 'https://login.salesforce.com',
     // For sandbox use
-    //domain : 'https://test.salesforce.com',
+    domain : 'https://test.salesforce.com',
 
     // URL called by Force.com after authorization and used to extract an authorization code.
     // This should point to your app and match the value configured in your App in SFDC setup)
